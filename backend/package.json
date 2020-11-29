@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "esm": "^3.2.25"
-  }
+  },
   "author": "Alex Graven",
   "license": "ISC",
   "devDependencies": {
