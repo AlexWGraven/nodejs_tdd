@@ -1,5 +1,5 @@
 // app.test.js
-import { should } from "chai";
+import "chai/register-should";
 import MessageApp from './app.js'
 describe("app", function() {
   let testApp = new MessageApp
