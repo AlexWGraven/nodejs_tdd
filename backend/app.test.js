@@ -1,9 +1,9 @@
 // app.test.js
-import "chai/register-should";
+import { expect } from "chai";
 import MessageApp from './app.js'
 describe("app", function() {
   let testApp = new MessageApp
   it("app has messages", function() {
-    testApp.messages.should.be.an('array');
+    expect(testApp.messages).to.be.an('array');
   });
 });
